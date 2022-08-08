@@ -19,5 +19,4 @@ welcome()
     self endon("disconnect");
     self waittill("spawned_player");
     wait 7;
-	self iprintln("^2" +self.name + "^7 , your perk limit has been removed");
 }
